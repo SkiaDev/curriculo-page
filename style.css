@@ -1,0 +1,199 @@
+html {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background-color: white;
+    transition: 0.5s
+}
+
+.light-dark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.trilhos{
+    width: 87.5px;
+    height: 37.5px;
+    background-color: #c3c3c3;
+    border-radius: 150px;
+    position: relative;
+    cursor: pointer;
+}
+
+.trilhos .indicador{
+    width: 37.5px;
+    height: 37.5px;
+    background-color: white;
+    border-radius: 50%;
+    transform: scale(.9);
+    position: absolute;
+    left: 0;
+    transition: 0.5s;
+}
+
+.trilhos.dark {
+    background-color: #4d4d4d;
+}
+
+.trilhos.dark .indicador{
+    left: 50px;
+    background-color: black;
+}
+
+body.dark{
+    background-color: #212121;
+    font: white;
+}
+
+body.dark p{
+    color: white;
+    transition: 0.5s;
+}
+
+body.dark h2{
+    color: white;
+    transition: 0.5s;
+}
+
+body.dark table{
+    transition: 0.5s;
+    background-color: white;
+}
+
+body.dark ul{
+    color: white;
+    transition: 0.5s;
+}
+
+body.dark ol{
+    color: white;
+    transition: 0.5s;
+}
+
+body.dark form{
+    color: white;
+    transition: 0.5s;
+}
+
+body.dark .about-body{
+    background-color: #4d4d4d;
+    transition: 0.5s;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, blue, purple);
+    height: 100px;
+    color: white;
+    padding: 10px 30px 10px 30px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 15px;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-title {
+    font-size: 30px;
+}
+
+.container {
+    padding: 0px 200px;
+}
+
+.section {
+    min-height: 300px;
+}
+
+.about-body {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    background-color: #aeaeae;
+    border-radius: 20px;
+}
+
+
+.profile-photo {
+    height: 200px;
+    border-radius: 100px;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-spacing: 0px;
+}
+
+table {
+    border-radius: 20px;
+}
+
+.th-empresa {
+    border-top-left-radius: 20px;
+}
+
+.th-tecno {
+    border-top-right-radius: 20px;
+}
+
+.td-hotel {
+    border-bottom-left-radius: 20px;
+}
+
+.td-ingles {
+    border-bottom-right-radius: 20px;
+}
+
+td{
+    padding: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.company-logo {
+    width: 100px;
+}
+
+.mensagem-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.mensagem-container label {
+    margin-bottom: 5px;
+}
+
+.mensagem-container textarea {
+    width: 100%;
+    height: 150px;
+}
+
+.img-logo {
+    width: 20px;
+    gap: 20px;
+}
