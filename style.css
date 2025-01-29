@@ -8,7 +8,8 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     background-color: white;
-    transition: 0.5s
+    transition: 0.5s;
+    flex-wrap: wrap;
 }
 
 .light-dark{
@@ -103,6 +104,7 @@ body.dark .about-body{
     list-style-type:none;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 a{
